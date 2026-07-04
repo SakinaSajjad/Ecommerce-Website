@@ -1,0 +1,83 @@
+h1 {
+    font-size: 3rem; /* Large font size for emphasis */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center the heading */
+    color: #2345A7; /* Set a vibrant color */
+ }
+
+
+h5{
+    font-size: 30px;
+}
+.heartshape{
+    font-size: 30px;
+   
+}
+.rating{
+    font-size: 30px;
+}
+
+.price{
+    font-size: 30px;
+}
+
+
+
+.container2 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    flex-wrap: wrap; /* Allows wrapping of the product items if needed */
+}
+
+.product1, .product2, .product3,.product4 ,.product5 ,.product6 ,.product6 ,.product7 ,.product8 {
+    margin: 10px; /* Add some spacing between products */
+    text-align: center; /* Center text inside each product */
+
+}
+.product1 img:hover{
+    filter: drop-shadow(12px 8px 4px #605DFF);
+  
+}
+.product2 img:hover{
+    filter: drop-shadow(12px 8px 4px #605DFF);
+  
+}
+
+.product3 img:hover{
+    filter: drop-shadow(12px 8px 4px #605DFF);
+  
+}
+
+.product4 img:hover{
+    filter: drop-shadow(12px 8px 4px #605DFF);
+  
+}
+
+.product5 img:hover{
+    filter: drop-shadow(12px 8px 4px #605DFF);
+  
+}
+
+.product6 img:hover{
+    filter: drop-shadow(12px 8px 4px #605DFF);
+  
+}
+
+.product7 img:hover{
+    filter: drop-shadow(12px 8px 4px #605DFF);
+  
+}
+.product8 img:hover{
+    filter: drop-shadow(12px 8px 4px #605DFF);
+
+  
+}
+
+
+.row img {
+    max-width: 100%; 
+    height: auto;
+}
+

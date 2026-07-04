@@ -1,0 +1,114 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+
+  background-image: url(img10.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+
+ 
+}
+img {
+    height: 30vh;                /* Set image height */
+    display: block;              /* Make the image a block element */
+    margin: 0 auto;              /* Center horizontally */
+}
+
+.container1 {
+    display: flex;               /* Use flexbox to center the items */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically */
+                 
+}
+
+.container1 li {
+    display: inline;             /* Keep items in the same line */
+    margin-left: 40px;           /* Reduce spacing between items */
+    font-size: 40px;             /* Font size */
+  
+}
+
+    .container2 h2{
+font-size: 55px;
+text-align: center;
+color:blue;
+font-family: 'Times New Roman', Times, serif;
+/* text-shadow: 3px 3px blue; */
+    }
+    .container2 p{
+       
+            font-size: 40px;
+            text-align: center;
+            color: black;
+            font-weight: 400;
+            text-shadow: 3px  orange;
+    }
+
+    .container2 section {
+font-size: 40px;
+text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 400;
+text-shadow: 3px  orange;
+    }
+
+    .container3 form{
+        font-size: 25px;
+    }
+form input{
+    background-color: whitesmoke;
+    height: 3vh;
+    width: fit-content;
+    font-size: 40px;
+}
+
+form textarea{
+    background-color: whitesmoke;
+    margin-top: 45px;
+    width: fit-content;
+    font-size: 25px;
+
+}
+
+form button{
+    background-color:black;
+    font-size: 35px;
+    margin-top: 20px;
+    width: fit-content;
+   font-weight: bold;
+   color: white;
+   width: 160px;
+   height: 60px;
+    
+ 
+}
+form button:hover{
+    background-color:blue;
+    color: white;
+}
+
+a:link {
+    color:purple; /* Unvisited link */
+}
+
+a:visited {
+    color: blue; /* Visitesd link */
+}
+.social-media a{
+    font-size: 40px;
+    color: blue;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 55px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}

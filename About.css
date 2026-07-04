@@ -1,0 +1,72 @@
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+header{
+    background-image: url(img1.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+header h1{
+    font-size: 55px;
+text-align: center;
+/* color:blue; */
+
+    
+}
+header a{
+display: inline;             /* Keep items in the same line */
+margin-left: 40px;           /* Reduce spacing between items */
+font-size: 35px; 
+
+}
+
+
+
+header a:link {
+    color:purple; /* Unvisited link */
+}
+
+ header a:visited {
+    color: blue /* Visitesd link */
+}
+
+.container1 h1{
+    font-size: 55px;
+    text-align: center;
+    color: blue;
+}
+    
+
+.container1 h2{
+font-size: 35px;
+text-align: center;
+color: black;}
+
+.container1 p{
+    text-align: center;
+    font-size: 35px;
+}
+
+ul li{
+    font-size: 35px;
+
+}
+
+
+footer{
+    background-image: url(img1.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+footer p{
+    
+font-size: 25px;
+text-align: center;
+color:blue;
+font-family: Arial, Helvetica, sans-serif;
+
+}
